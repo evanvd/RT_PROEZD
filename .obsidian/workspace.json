@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RT_EXAM.md",
-                "mode": "preview",
+                "file": "RT_PROEZD.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RT_EXAM"
+              "title": "RT_PROEZD"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "3add663de7386789",
   "lastOpenFiles": [
-    "Программа/Билет 1.md",
     "RT_EXAM.md",
+    "Программа/Билет 1.md",
     "Программа/Билет 6.md",
     "RT_PROEZD.md",
     "Билеты/yfБез названия.md",
