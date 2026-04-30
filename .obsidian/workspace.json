@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Билетики.md",
+                "file": "RT_EXAM.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Билетики"
+              "title": "RT_EXAM"
             }
           }
         ]
@@ -185,6 +185,13 @@
   },
   "active": "3add663de7386789",
   "lastOpenFiles": [
+    "Программа/Билет 1.md",
+    "RT_EXAM.md",
+    "Программа/Билет 6.md",
+    "RT_PROEZD.md",
+    "Билеты/yfБез названия.md",
+    "Билеты",
+    "Консультация 2025.md",
     "Программа 2025.md",
     "Билетики.md",
     "Петрович md/Петрович.md",
