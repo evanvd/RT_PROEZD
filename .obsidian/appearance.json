@@ -1,4 +1,20 @@
 {
+  "cssTheme": "Tokyo Night",
+  "accentColor": "#4c00ff",
+  "theme": "obsidian",
   "baseFontSizeAction": true,
-  "baseFontSize": 21
+  "baseFontSize": 18,
+  "showRibbon": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "compact",
+    "compact-homework-grid",
+    "dashboard-linear",
+    "list-column",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "snippet"
+  ],
+  "showViewHeader": true
 }

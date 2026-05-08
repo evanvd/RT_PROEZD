@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Общесос  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431401
+      }
+    },
+    {
+      "query": "path:Матан  ",
+      "color": {
+        "a": 1,
+        "rgb": 34047
+      }
+    },
+    {
+      "query": "path:Ангем  ",
+      "color": {
+        "a": 1,
+        "rgb": 16762880
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.05703125,
+  "lineSizeMultiplier": 1.43984375,
+  "collapse-forces": false,
+  "centerStrength": 0.549479166666667,
+  "repelStrength": 10.152133580705,
+  "linkStrength": 1,
+  "linkDistance": 248,
+  "scale": 0.31642871150488605,
+  "close": false
+}

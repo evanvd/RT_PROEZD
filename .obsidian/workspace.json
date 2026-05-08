@@ -1,24 +1,52 @@
 {
   "main": {
-    "id": "bd185185ffd707d1",
+    "id": "45f1d2fed4889983",
     "type": "split",
     "children": [
       {
-        "id": "b170cba72f3e3274",
+        "id": "0c395f17f7eca0c0",
         "type": "tabs",
         "children": [
           {
-            "id": "3add663de7386789",
+            "id": "0517d0178692a719",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Билеты/Билет 26.md",
+                "file": "RT_PROEZD.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Билет 26"
+              "title": "RT_PROEZD"
+            }
+          },
+          {
+            "id": "017ea2fb61a13cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Консультация 2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Консультация 2025"
+            }
+          },
+          {
+            "id": "e6ab26430ab64d49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программа/Билет 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Билет 1"
             }
           }
         ]
@@ -27,15 +55,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6a8ae9753b7391ed",
+    "id": "143b1c9805d78720",
     "type": "split",
     "children": [
       {
-        "id": "f2c5558c98099466",
+        "id": "41fd535e2b5ab695",
         "type": "tabs",
         "children": [
           {
-            "id": "7dc0e5e7b3c1fbe7",
+            "id": "31a7a8bb2ac26b3e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +76,12 @@
             }
           },
           {
-            "id": "e23453dd6f096dac",
+            "id": "31aed6542e1ab9ae",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Определение",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +93,7 @@
             }
           },
           {
-            "id": "10cbc33a7efb6301",
+            "id": "b54ebdde7eb5f034",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +109,20 @@
     "width": 300
   },
   "right": {
-    "id": "42eed9e4e27cec68",
+    "id": "6331440b4308c95b",
     "type": "split",
     "children": [
       {
-        "id": "d6be5ad49d8a4f62",
+        "id": "89aa7702ac89dfd1",
         "type": "tabs",
         "children": [
           {
-            "id": "ec42ca2f010c9571",
+            "id": "2b96481ca3fb1eb8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Билетики.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,31 +132,31 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Билетики"
+              "title": "Backlinks for Untitled"
             }
           },
           {
-            "id": "9dd1048cdaaf09ba",
+            "id": "58138089711ab649",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Билетики.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Билетики"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
-            "id": "760dcf321cd2c2a4",
+            "id": "5e35f6fc839b20ba",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -137,39 +165,26 @@
             }
           },
           {
-            "id": "74c204abffafda37",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "Все свойства"
-            }
-          },
-          {
-            "id": "6ddf321a8a76eb91",
+            "id": "5066f0c24c9d6a44",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Билетики.md",
+                "file": "Матан/Матан.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Билетики"
+              "title": "Структура Матан"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 331.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,38 +195,63 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "3add663de7386789",
+  "active": "0517d0178692a719",
   "lastOpenFiles": [
-    "Билеты/Билет 25.md",
-    "Билеты/Билет 24.md",
-    "Билеты/Билет 26.md",
+    "Программа/Билет 1.md",
+    "RT_PROEZD.md",
+    "Программа/Билет 9 Числовые ряды.md",
+    "Программа/cache/Pasted image 20260508163136.png",
+    "Программа/cache/Pasted image 20260508163105.png",
+    "Консультация 2025.md",
+    "Петрович md/Глава IX.md",
+    "Петрович md/Глава XI.md",
+    "Программа/Билет 12.md",
+    "Программа/cache/Pasted image 20260508160748.png",
+    "Программа/cache/Pasted image 20260508160539.png",
+    "Программа/cache/Pasted image 20260508160534.png",
+    "Петрович md/cache/Pasted image 20260508160510.png",
+    "Петрович md/cache/Pasted image 20260508160438.png",
+    "Петрович md/cache",
     "Билеты/Билеты.md",
-    "Билеты/Билет 40.md",
-    "Билеты/Билет 36.md",
-    "Билеты/Билет 32.md",
-    "Билеты/Билет 27.md",
-    "Билеты/Билет 21.md",
-    "Билеты/Билет 18.md",
-    "Билеты/Билет 15.md",
-    "Билеты/Билет 13.md",
-    "Билеты/Билет 11.md",
-    "Билеты/Билет 7.md",
-    "Билеты/Билет 4.md",
-    "Билеты/Билет 2.md",
-    "Билеты/Билет 1.md",
-    "Билеты/Билет 5.md",
-    "Билеты/Билет 6.md",
-    "Билеты/Билет 10.md",
-    "Билеты/Билет 9.md",
-    "Программа/Билет 11.md",
     "Без названия.md",
-    "RT_EXAM.md",
-    "Билеты/RT_EXAM.md",
     "Программа 2025.md",
-    "Билеты",
-    "Петрович md"
+    "Линал/Линал.md",
+    "Линал/Материалы/линал_задавальник.pdf",
+    "Линал/Дз/2 Задание/Неделя 5.xopp.md",
+    "Линал/Материалы/анал.pdf",
+    "Матан/материалы/RT_PROEZD/RT_PROEZD.md",
+    "Матан/материалы/Экзаменационная программа.pdf",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 9 Числовые ряды.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 12.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 11.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 10.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 8.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 7.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 6.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 5.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 4.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 3.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 2.md",
+    "Матан/материалы/RT_PROEZD/Программа/Билет 1.md",
+    "Теорвер/задавальник теорвер.pdf",
+    "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211134.png",
+    "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211118.png",
+    "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211054.png",
+    "Матан/материалы/RT_PROEZD/Программа/cache",
+    "Матан/материалы/RT_PROEZD/Программа",
+    "Матан/материалы/RT_PROEZD/Билеты",
+    "Матан/материалы/RT_PROEZD/Билеты по программе 2025/cache",
+    "Матан/материалы/RT_PROEZD/Петрович md",
+    "Общесос/Архив/1 сем/задачи_по_билетам.canvas",
+    "TODOшки.canvas",
+    "Общесос/задачи_по_билетам.canvas",
+    "todo_canvas.canvas",
+    "Без названия.canvas",
+    "Билеты/Untitled.canvas"
   ]
 }

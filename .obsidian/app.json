@@ -1,3 +1,20 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "cache/"
+  ],
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./cache",
+  "strictLineBreaks": false,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "openBehavior": "file:HOMEPAGE"
 }

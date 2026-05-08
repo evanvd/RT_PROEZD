@@ -1,0 +1,43 @@
+/* Уменьшение отступов во всем редакторе */
+.markdown-preview-view,
+.markdown-source-view {
+  padding: 10px 20px !important; /* Вместо стандартных 40px */
+}
+
+/* Уменьшить отступы вокруг текста */
+.cm-content,
+.markdown-preview-section {
+  padding: 5px 0 !important;
+}
+
+/* Уменьшить отступы в режиме чтения */
+.markdown-reading-view .markdown-preview-view {
+  padding: 15px 25px !important;
+}
+
+/* Уменьшить максимальную ширину для более компактного вида */
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: 900px !important; /* Вместо 1000px+ */
+  margin: 0 auto !important;
+}
+
+/* Уменьшить отступы заголовков */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3 {
+  margin-top: 0.8em !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* Уменьшить отступы параграфов */
+.markdown-preview-view p {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* Уменьшить отступы списков */
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+}
