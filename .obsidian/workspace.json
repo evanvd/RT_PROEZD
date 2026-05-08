@@ -42,14 +42,15 @@
               "type": "markdown",
               "state": {
                 "file": "Программа/Билет 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Билет 1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,21 +196,22 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false
+      "bases:Создать новую базу": false
     }
   },
-  "active": "0517d0178692a719",
+  "active": "e6ab26430ab64d49",
   "lastOpenFiles": [
-    "Программа/Билет 1.md",
     "RT_PROEZD.md",
-    "Программа/Билет 9 Числовые ряды.md",
-    "Программа/cache/Pasted image 20260508163136.png",
-    "Программа/cache/Pasted image 20260508163105.png",
+    "Программа/Билет 1.md",
     "Консультация 2025.md",
     "Петрович md/Глава IX.md",
     "Петрович md/Глава XI.md",
+    "Петрович md/Глава X.md",
+    "Промпт.md",
+    "Программа/Билет 2.md",
+    "Программа/Билет 9 Числовые ряды.md",
+    "Программа/cache/Pasted image 20260508163136.png",
+    "Программа/cache/Pasted image 20260508163105.png",
     "Программа/Билет 12.md",
     "Программа/cache/Pasted image 20260508160748.png",
     "Программа/cache/Pasted image 20260508160539.png",
@@ -218,7 +220,6 @@
     "Петрович md/cache/Pasted image 20260508160438.png",
     "Петрович md/cache",
     "Билеты/Билеты.md",
-    "Без названия.md",
     "Программа 2025.md",
     "Линал/Линал.md",
     "Линал/Материалы/линал_задавальник.pdf",
@@ -237,7 +238,6 @@
     "Матан/материалы/RT_PROEZD/Программа/Билет 4.md",
     "Матан/материалы/RT_PROEZD/Программа/Билет 3.md",
     "Матан/материалы/RT_PROEZD/Программа/Билет 2.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 1.md",
     "Теорвер/задавальник теорвер.pdf",
     "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211134.png",
     "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211118.png",
