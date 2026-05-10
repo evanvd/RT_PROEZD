@@ -195,11 +195,7 @@ $$z = f(x_0, y_0) + f'_x(x_0, y_0)(x - x_0) + f'_y(x_0, y_0)(y - y_0). \tag{10.4
 
 ## § 2. Дифференцирование сложной функции
 
-**Теорема 10.3.** Пусть функции $k$ переменных $x_1(t_1, \dots, t_k), \dots, x_n(t_1, \dots, t_k)$ дифференцируемы в точке $(t_1^0, \dots, t_k^0)$, а функция $n$ переменных $f(x_1, \dots, x_n)$ дифференцируема
-
----
-
-в точке $(x_1^0, \dots, x_n^0)$, где $x_j^0 = x_j(t_1^0, \dots, t_k^0), j = 1, \dots, n$. Тогда сложная функция $f(x_1(t_1, \dots, t_k), \dots, x_n(t_1, \dots, t_k))$ дифференцируема в точке $(t_1^0, \dots, t_k^0)$, причём её частные производные в этой точке вычисляются по формулам
+**Теорема 10.3.** Пусть функции $k$ переменных $x_1(t_1, \dots, t_k), \dots, x_n(t_1, \dots, t_k)$ дифференцируемы в точке $(t_1^0, \dots, t_k^0)$, а функция $n$ переменных $f(x_1, \dots, x_n)$ дифференцируема в точке $(x_1^0, \dots, x_n^0)$, где $x_j^0 = x_j(t_1^0, \dots, t_k^0), j = 1, \dots, n$. Тогда сложная функция $f(x_1(t_1, \dots, t_k), \dots, x_n(t_1, \dots, t_k))$ дифференцируема в точке $(t_1^0, \dots, t_k^0)$, причём её частные производные в этой точке вычисляются по формулам
 $$\frac{\partial f}{\partial t_i} = \frac{\partial f}{\partial x_1} \cdot \frac{\partial x_1}{\partial t_i} + \frac{\partial f}{\partial x_2} \cdot \frac{\partial x_2}{\partial t_i} + \dots + \frac{\partial f}{\partial x_n} \cdot \frac{\partial x_n}{\partial t_i} \equiv \sum_{j=1}^n \frac{\partial f}{\partial x_j} \cdot \frac{\partial x_j}{\partial t_i}, \quad i = 1, \dots, k$$
 ($\frac{\partial f}{\partial x_j}$ берутся в точке $(x_1^0, \dots, x_n^0)$, а $\frac{\partial x_j}{\partial t_i}$ — в точке $(t_1^0, \dots, t_k^0)$).
 
@@ -285,9 +281,6 @@ $\square$ а) $\text{grad}(x^2 + y^2 + z^2) = (2x, 2y, 2z)^T$;
 б) $\nabla(xyz) = (yz, xz, xy)^T$; $(x^2 + y^2 + z^2) \nabla (xyz) = ((x^2 + y^2 + z^2)yz, (x^2 + y^2 + z^2)xz, (x^2 + y^2 + z^2)xy)^T$. $\blacksquare$
 
 **Определение 10.5.** Пусть $f$ — функция $n$ переменных, а $\vec{e} = (e_1, \dots, e_n)^T$ — единичный вектор ($e_1^2 + \dots + e_n^2 = 1$).
-
----
-
 Рассмотрим функцию $\varphi(t) = f(x_1^0 + te_1, \dots, x_n^0 + te_n)$ одной переменной $t$. Если существует конечная $\varphi'_+(0)$, то она называется **производной по направлению** вектора $\vec{e}$ функции $f$ в точке $(x_1^0, \dots, x_n^0)$ и обозначается $\frac{\partial f}{\partial \vec{e}} (x_1^0, \dots, x_n^0)$.
 
 **Пример 10.10.** Для функции двух переменных $f(x, y) = \sqrt{x^2 + y^2}$ для любого единичного вектора $\vec{e} = (e_1, e_2)^T$ в точке $(0, 0)$ имеем: $\varphi(t) = \sqrt{t^2e_1^2 + t^2e_2^2} = |t|$; $\varphi'_+(0) = 1$, и производная по любому направлению равна 1. При этом $f(x, 0) = |x|$, и $\frac{\partial f}{\partial x}(0, 0) = \left. \frac{d}{dx} f(x, 0) \right|_{x=0}$ — не существует; аналогично не существует $\frac{\partial f}{\partial y}(0, 0)$.

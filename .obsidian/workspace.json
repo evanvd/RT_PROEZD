@@ -34,23 +34,42 @@
               "icon": "lucide-file",
               "title": "Консультация 2025"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "700b71592c3dd3fa",
+        "type": "tabs",
+        "children": [
           {
-            "id": "e6ab26430ab64d49",
+            "id": "11de1af12fbed1f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RT_PROEZD.md",
-                "mode": "preview",
+                "file": "Петрович md/Глава X.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RT_PROEZD"
+              "title": "Глава X"
+            }
+          },
+          {
+            "id": "c300ecefb10ee00e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Петрович md/Глава IX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Глава IX"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6331440b4308c95b",
@@ -199,15 +219,19 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "e6ab26430ab64d49",
+  "active": "0517d0178692a719",
   "lastOpenFiles": [
-    "Программа/Билет 2.md",
+    "Программа/Билет 3.md",
+    "Петрович md/Глава X.md",
     "RT_PROEZD.md",
+    "Программа/Билет 2.md",
+    "Петрович md/Глава IX.md",
+    "Программа/Билет 11.md",
+    "Программа/Билет 10.md",
+    "Программа/Билет 5.md",
     "Программа/Билет 1.md",
     "Консультация 2025.md",
-    "Петрович md/Глава IX.md",
     "Петрович md/Глава XI.md",
-    "Петрович md/Глава X.md",
     "Промпт.md",
     "Программа/Билет 9 Числовые ряды.md",
     "Программа/cache/Pasted image 20260508163136.png",
@@ -234,10 +258,6 @@
     "Матан/материалы/RT_PROEZD/Программа/Билет 8.md",
     "Матан/материалы/RT_PROEZD/Программа/Билет 7.md",
     "Матан/материалы/RT_PROEZD/Программа/Билет 6.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 5.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 4.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 3.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 2.md",
     "Теорвер/задавальник теорвер.pdf",
     "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211134.png",
     "Матан/материалы/RT_PROEZD/Программа/cache/Pasted image 20260426211118.png",
