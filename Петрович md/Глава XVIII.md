@@ -60,8 +60,8 @@ $\square$ Доказательство существования паралле
 Доказательство непрерывной дифференцируемости функции $y = f(x_1, \dots, x_n)$ в $\Pi'$ несколько усложняется. Аналогично доказательству теоремы 18.1, для всех $(x_1, x_2, \dots, x_n, y) \in \bar{\Pi}$
 $F'_y \ge \alpha > 0; \quad |F'_{x_i}| \le \beta_i, \quad i = 1, \dots, n.$
 Пусть $(x_1, \dots, x_n, y) \in \Pi$, причём $F(x_1, \dots, x_n, y) = 0$; значит, $y = f(x_1, \dots, x_n)$. Если $\Delta x_1, \dots, \Delta x_n$ — приращения аргументов $x_1, \dots, x_n$ такие, что $(x_1 + \Delta x_1, \dots, x_n + \Delta x_n) \in \Pi'$, а $\Delta y$ — соответствующее ему приращение функции $f(x_1, \dots, x_n)$, то $F(x_1 + \Delta x_1, \dots, x_n + \Delta x_n, y + \Delta y) = 0$. По теореме Лагранжа для функций нескольких переменных имеем
-$0 = F(x_1 + \Delta x_1, \dots, x_n + \Delta x_n, y + \Delta y) - F(x_1, \dots, x_n, y) = $
-$= F'_{x_1}(x_1 + \xi \Delta x_1, \dots, x_n + \xi \Delta x_n, y + \xi \Delta y) \cdot \Delta x_1 + $
+$0 = F(x_1 + \Delta x_1, \dots, x_n + \Delta x_n, y + \Delta y) - F(x_1, \dots, x_n, y) = 
+= F'_{x_1}(x_1 + \xi \Delta x_1, \dots, x_n + \xi \Delta x_n, y + \xi \Delta y) \cdot \Delta x_1 
 $+ \dots + F'_{x_n}(x_1 + \xi \Delta x_1, \dots, x_n + \xi \Delta x_n, y + \xi \Delta y) \cdot \Delta x_n + $
 $+ F'_y(x_1 + \xi \Delta x_1, \dots, x_n + \xi \Delta x_n, y + \xi \Delta y) \cdot \Delta y, \quad 0 < \xi < 1.$
 
