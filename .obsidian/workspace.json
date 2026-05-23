@@ -4,6 +4,55 @@
     "type": "split",
     "children": [
       {
+        "id": "04a5e5c907629eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "017ea2fb61a13cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RT_PROEZD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RT_PROEZD"
+            }
+          },
+          {
+            "id": "cb41b36e8703abf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программа/Билет 7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Билет 7"
+            }
+          },
+          {
+            "id": "a5b37b5f0aebc806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программа/Билет 6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Билет 6"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
         "id": "0c395f17f7eca0c0",
         "type": "tabs",
         "children": [
@@ -13,30 +62,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Программа/Билет 5.md",
-                "mode": "source",
+                "file": "Программа/Билет 8.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Билет 5"
+              "title": "Билет 8"
             }
           },
           {
-            "id": "3747d31136551b9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Промпт.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Промпт"
-            }
-          },
-          {
-            "id": "017ea2fb61a13cc9",
+            "id": "c4beb9edfd6bb6ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,42 +83,79 @@
               "icon": "lucide-file",
               "title": "Консультация 2025"
             }
-          }
-        ]
-      },
-      {
-        "id": "700b71592c3dd3fa",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "11de1af12fbed1f0",
+            "id": "7795d2e12ee2b4e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Петрович md/Глава X.md",
-                "mode": "source",
+                "file": "RT_PROEZD.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Глава X"
+              "title": "RT_PROEZD"
             }
           },
           {
-            "id": "c300ecefb10ee00e",
+            "id": "1f35e527c7a05188",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Петрович md/Глава IX.md",
+                "file": "Петрович md/Глава XII.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Глава IX"
+              "title": "Глава XII"
+            }
+          },
+          {
+            "id": "84c359ef35669cb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Петрович md/Глава XVIII.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Глава XVIII"
+            }
+          },
+          {
+            "id": "6fc77d92e292f8c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Петрович md/Глава XI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Глава XI"
+            }
+          },
+          {
+            "id": "e849c71eb5cedf0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Программа/Билет 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Билет 11"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,47 +304,48 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "0517d0178692a719",
+  "active": "84c359ef35669cb0",
   "lastOpenFiles": [
-    "Промпт.md",
-    "Программа/Билет 5.md",
-    "Программа/Билет 4.md",
-    "Программа/cache/Pasted image 20260510144234.png",
-    "Петрович md/Глава X.md",
-    "Программа/cache/Pasted image 20260510143748.png",
-    "Программа/Билет 3.md",
-    "Программа/cache/Pasted image 20260510143513.png",
     "RT_PROEZD.md",
-    "Программа/cache/Pasted image 20260510143124.png",
-    "Программа/cache/Pasted image 20260510143119.png",
-    "Программа/cache/Pasted image 20260510142806.png",
-    "Программа/Билет 2.md",
-    "Петрович md/Глава IX.md",
+    "Петрович md/Глава XVIII.md",
+    "Программа/Билет 13.md",
+    "Программа/Билет 12.md",
     "Программа/Билет 11.md",
     "Программа/Билет 10.md",
+    "Программа/Билет 9 Числовые ряды.md",
+    "Программа/Билет 8.md",
+    "Программа/Билет 7.md",
+    "Программа/Билет 6.md",
+    "Программа/Билет 5.md",
+    "Программа/Билет 4.md",
+    "Программа/Билет 3.md",
+    "Программа/Билет 2.md",
     "Программа/Билет 1.md",
+    "Петрович md/Глава XII.md",
     "Консультация 2025.md",
     "Петрович md/Глава XI.md",
-    "Программа/Билет 9 Числовые ряды.md",
-    "Программа/cache/Pasted image 20260508163136.png",
-    "Программа/cache/Pasted image 20260508163105.png",
-    "Программа/Билет 12.md",
-    "Программа/cache/Pasted image 20260508160748.png",
-    "Программа/cache/Pasted image 20260508160539.png",
+    "Петрович md/Глава XIII.md",
+    "Петрович md/cache/Pasted image 20260519231410.png",
+    "Программа/cache/Pasted image 20260519231231.png",
+    "Петрович md/cache/Pasted image 20260519231202.png",
+    "Петрович md/cache/Pasted image 20260519224420.png",
+    "Петрович md/cache/Pasted image 20260519224039.png",
+    "Петрович md/cache/Pasted image 20260519224030.png",
+    "Петрович md/cache/Pasted image 20260519222900.png",
+    "Петрович md/cache/Pasted image 20260519222807.png",
+    "Без названия.md",
+    "Программа/cache/Pasted image 20260519221240.png",
+    "Петрович md/Глава XVII.md",
+    "Петрович md/Глава IX.md",
+    "Петрович md/Глава X.md",
+    "Промпт.md",
+    "Программа/cache/Pasted image 20260510144234.png",
     "Петрович md/cache",
     "Билеты/Билеты.md",
     "Программа 2025.md",
-    "Линал/Линал.md",
     "Линал/Материалы/линал_задавальник.pdf",
-    "Линал/Дз/2 Задание/Неделя 5.xopp.md",
     "Линал/Материалы/анал.pdf",
-    "Матан/материалы/RT_PROEZD/RT_PROEZD.md",
     "Матан/материалы/Экзаменационная программа.pdf",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 9 Числовые ряды.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 12.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 11.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 10.md",
-    "Матан/материалы/RT_PROEZD/Программа/Билет 8.md",
     "Теорвер/задавальник теорвер.pdf",
     "Матан/материалы/RT_PROEZD/Программа/cache",
     "Матан/материалы/RT_PROEZD/Программа",
