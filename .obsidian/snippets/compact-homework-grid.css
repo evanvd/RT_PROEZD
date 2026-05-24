@@ -1,0 +1,60 @@
+/* сетка недель */
+
+.compact-tasks .contains-task-list:first-of-type{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  padding-left:0;
+}
+
+/* карточка недели */
+
+.compact-tasks .contains-task-list:first-of-type > li{
+  list-style:none;
+
+  background:var(--background-secondary);
+  border:1px solid var(--background-modifier-border);
+  border-radius:14px;
+
+  padding:14px;
+
+  display:flex;
+  flex-direction:column;
+}
+
+/* заголовок недели */
+
+.compact-tasks .contains-task-list:first-of-type > li > p{
+  font-weight:600;
+  margin-bottom:8px;
+}
+
+/* контейнер задач */
+
+.compact-tasks .contains-task-list:first-of-type > li ul{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 10px;
+  padding-left:0;
+  margin:0;
+}
+
+/* задача */
+
+.compact-tasks .task-list-item{
+  list-style:none;
+  margin:0;
+
+  display:flex;
+  align-items:center;
+
+  white-space:nowrap;
+  font-size:0.9em;
+}
+/* чекбокс */
+
+.compact-tasks .task-list-item input[type="checkbox"]{
+  margin-right:6px;
+  position:relative;
+  left:0;
+}

@@ -1,0 +1,107 @@
+/* Активация: cssclasses: dashboard-linear */
+
+/* 1. Настройка сетки для всего контейнера */
+.dashboard-linear .markdown-rendered > div,
+.dashboard-linear .markdown-source-view.mod-cm6 .cm-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    align-items: start;
+    padding: 20px;
+}
+
+/* Растягиваем H1 на всю ширину */
+.dashboard-linear h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 2px solid var(--interactive-accent);
+    padding-bottom: 10px;
+    margin-bottom: 20px !important;
+}
+
+/* 2. Стилизация карточек (H2 и контент под ним) */
+/* Мы делаем H2 "шапкой", а последующие элементы — телом карточки */
+
+.dashboard-linear h2 {
+    grid-column: span 1;
+    margin: 0 !important;
+    padding: 15px 20px;
+    background: var(--background-secondary);
+    border-radius: 10px 10px 0 0;
+    border-left: 5px solid var(--interactive-accent);
+    font-size: 1.15em;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 2;
+}
+
+/* Тело карточки: списки и подзаголовки */
+.dashboard-linear h2 + ul, 
+.dashboard-linear h2 + h3,
+.dashboard-linear h2 + h3 + ul,
+.dashboard-linear h3 + ul {
+    background: var(--background-primary-alt);
+    border: 1px solid var(--background-modifier-border);
+    border-top: none;
+    padding: 15px !important;
+    margin: 0 0 10px 0 !important;
+    list-style: none !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Закругляем низ последнего элемента в блоке */
+.dashboard-linear ul:last-of-type {
+    border-radius: 0 0 10px 10px;
+}
+
+/* 3. Списки и ссылки (кнопки) */
+.dashboard-linear ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 0 !important;
+}
+
+.dashboard-linear li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+
+.dashboard-linear li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    text-decoration: none !important;
+    color: var(--text-normal);
+    font-size: 0.9em;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Эффект при наведении */
+.dashboard-linear li a:hover {
+    background-color: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+    color: var(--interactive-accent);
+    padding-left: 18px; /* Легкое смещение */
+}
+
+/* Оформление внутренних заголовков H3 (Задание 1, 2) */
+.dashboard-linear h3 {
+    font-size: 0.85em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 10px !important;
+    border: none !important;
+}
+
+/* 4. Адаптивность для мобильных */
+@media (max-width: 650px) {
+    .dashboard-linear .markdown-rendered > div {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}

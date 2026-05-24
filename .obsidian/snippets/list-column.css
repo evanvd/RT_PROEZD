@@ -1,0 +1,8 @@
+.list-columns .markdown-preview-view ol {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.list-columns .markdown-preview-view li {
+  break-inside: avoid;
+}
