@@ -1,5 +1,5 @@
 {
   "format": "DD MMM Y",
-  "folder": "Дневник/daily",
-  "template": "templates/daily-note-template"
+  "folder": "",
+  "template": ""
 }
