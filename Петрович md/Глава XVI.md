@@ -10,12 +10,12 @@ $$\forall x \in E, \forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0 \
 $$\forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0, \forall x \in E \to |f_n(x) - f(x)| < \varepsilon. \tag{16.1}$$
 
 Для равномерной сходимости применяется обозначение
-$$f_n(x) \xrightarrow[E]{\implies} f(x) \quad \text{или} \quad f_n(x) \rightrightarrows f(x), \quad x \in E.$$
+$$f_n(x) \rightrightarrows f(x), \quad x \in E.$$
 
 Очевидно, что из равномерной сходимости $f_n$ к $f$ на множестве $E$ следует поточечная; как мы убедимся чуть позже на примерах, обратное утверждение неверно. В случае равномерной сходимости $n_0 = n_0(\varepsilon)$; эта зависимость является частным случаем зависимости $n_0 = n_0(\varepsilon, x)$.
 
 **Лемма 16.1.** Пусть $\rho_n = \sup_{x \in E} |f_n(x) - f(x)|$. Тогда
-$$f_n(x) \xrightarrow[E]{\implies} f(x) \iff \lim_{n \to \infty} \rho_n = 0.$$
+$$f_n(x) \rightrightarrows f(x), \quad x \in E \iff \lim_{n \to \infty} \rho_n = 0.$$
 
 ---
 
@@ -54,7 +54,7 @@ $$\rho_n = \sup_{[0;1]} |f_n(x) - f(x)| = \sup_{[0;1]} f_n(x).$$
 **Лемма 16.2.** Функциональная последовательность $f_n$ равномерно сходится к функции $f$ на множестве $E \iff$ для любой последовательности точек $x_n \in E$ выполняется равенство
 $$\lim_{n \to \infty}(f_n(x_n) - f(x_n)) = 0.$$
 
-$\square$ ($\implies$) Если $f_n(x) \xrightarrow[E]{\implies} f(x)$, то для любой последовательности $x_n \in E$:
+$\square$ ($\implies$) Если $f_n(x) \rightrightarrows f(x), \quad x \in E$, то для любой последовательности $x_n \in E$:
 $$|f_n(x_n) - f(x_n)| \le \sup_{x \in E} |f_n(x) - f(x)| \equiv \rho_n \to 0.$$
 
 ($\impliedby$) Пусть последовательность $f_n$ не является равномерно сходящейся к $f$ на множестве $E$. Тогда неверно, что $\lim_{n \to \infty} \rho_n = 0$, т.е. $\exists \varepsilon > 0 : \forall n_0 \to \exists n \ge n_0 : \rho_n \ge \varepsilon$. Но если $\rho_n = \sup_{x \in E} |f_n(x) - f(x)| \ge \varepsilon$, то для каждого такого значения $n$ найдётся точка $x_n \in E$ такая, что $|f_n(x_n) - f(x_n)| \ge \frac{\varepsilon}{2}$. Значит, $\exists \varepsilon > 0 : \forall n_0 \to \exists n \ge n_0, \exists x_n \in E : |f_n(x_n) - f(x_n)| \ge \frac{\varepsilon}{2}$, т.е. неверно, что $\lim_{n \to \infty} (f_n(x_n) - f(x_n)) = 0. \blacksquare$
@@ -99,7 +99,7 @@ $\forall \varepsilon > 0 \to \exists n_2 : \forall n \ge n_2, \forall x \in E \t
 
 Понятие равномерной сходимости даёт возможность делать вывод о непрерывности предельной функции в случае сходимости последовательности из непрерывных функций, переходить к пределу под знаком производной или интеграла и т.д.
 
-**Теорема 16.2.** Пусть функции $f_n, n = 1, 2, \dots$, непрерывны на множестве $E$, причём $f_n(x) \xrightarrow[E]{\implies} f(x)$. Тогда предельная функция $f$ непрерывна на $E$.
+**Теорема 16.2.** Пусть функции $f_n, n = 1, 2, \dots$, непрерывны на множестве $E$, причём $f_n(x) \rightrightarrows f(x), \quad x \in E$. Тогда предельная функция $f$ непрерывна на $E$.
 $\square$ Из равномерной сходимости следует, что
 $$\forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0, \forall x \in E \to |f_n(x) - f(x)| < \frac{\varepsilon}{3}. \tag{16.2}$$
 Пусть $x_0, x \in E$. Тогда
@@ -125,9 +125,6 @@ $\forall \varepsilon > 0 \to \exists \delta > 0 : \forall x \in U_\delta(x_0) \c
 **Теорема 16.3.** Пусть функции $f_n$ непрерывны на отрезке $[a; b]$, причём $f_n(x) \rightrightarrows f(x), x \in [a; b]$. Тогда $\int_a^x f_n(t) \, dt \rightrightarrows \int_a^x f(t) \, dt, x \in [a; b]$ (в частности, при $x = b$ имеем: $\int_a^b f_n(t) \, dt \to \int_a^b f(t) \, dt$ — предельный переход под знаком интеграла).
 $\square$ По теореме 16.2 функция $f$ непрерывна (следовательно, интегрируема) на $[a; b]$. Пусть $\rho_n = \sup_{[a;b]} |f_n(x) - f(x)|$; $\lim_{n \to \infty} \rho_n = 0$. Тогда при всех $x \in [a; b]$ имеет место оценка
 $$\left| \int_a^x f_n(t) \, dt - \int_a^x f(t) \, dt \right| \le$$
-
----
-
 $$\le \int_a^x |f_n(t) - f(t)| \, dt \le \rho_n \cdot (x - a) \le \rho_n(b - a),$$
 и
 $$\sup_{[a;b]} \left| \int_a^x f_n(t) \, dt - \int_a^x f(t) \, dt \right| \le \rho_n(b - a) \to 0.$$
@@ -189,17 +186,15 @@ $$\sum_{n=1}^{\infty} \left( \int_a^b u_n(t) \, dt \right) = \int_a^b \left( \su
 
 Если в случае функциональной последовательности предельная функция, как правило, известна, и характер сходимости определяется поведением последовательности $\rho_n = \sup_{x \in E} |f_n(x) - f(x)|$, то сумма сходящегося ряда, как правило, неизвестна, и при исследовании равномерной сходимости нет хорошо работающего на практике необходимого и достаточного условия (кроме громоздкого критерия Коши).
 
-**Теорема 16.5 (необходимое условие равномерной сходимости ряда).** Если функциональный ряд $\sum_{n=1}^{\infty} u_n(x)$ равномерно сходится на множестве $E$, то $u_n(x) \xrightarrow[E]{\implies} 0$.
-$\square$ Так как $S_n(x) = \sum_{k=1}^n u_k(x) \xrightarrow[E]{\implies} S(x)$, то $S_{n-1}(x) \xrightarrow[E]{\implies} S(x)$; тогда по лемме 16.4
-$$u_n(x) = S_n(x) - S_{n-1}(x) \xrightarrow[E]{\implies} S(x) - S(x) = 0. \blacksquare$$
+**Теорема 16.5 (необходимое условие равномерной сходимости ряда).** Если функциональный ряд $\sum_{n=1}^{\infty} u_n(x)$ равномерно сходится на множестве $E$, то $u_n(x) \rightrightarrows 0, \quad x \in E$.
+$\square$ Так как $S_n(x) = \sum_{k=1}^n u_k(x) \rightrightarrows S(x), \quad x \in E$, то $S_{n-1}(x) \rightrightarrows S(x), \quad x \in E$; тогда по лемме 16.4
+$$u_n(x) = S_n(x) - S_{n-1}(x) \rightrightarrows S(x), \quad x \in E - S(x) = 0. \blacksquare$$
 
 **Теорема 16.6 (признак Вейерштрасса — достаточное условие равномерной сходимости ряда).** Пусть для всех $x \in E$ и $n \in \mathbb{N}$ выполняется неравенство $|u_n(x)| \le \alpha_n$, где ряд $\sum_{n=1}^{\infty} \alpha_n$ сходится. Тогда функциональный ряд $\sum_{n=1}^{\infty} u_n(x)$ сходится равномерно на $E$.
 $\square$ По критерию Коши сходимости числового ряда
 $$\forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0, \forall p \in \mathbb{N} \to \sum_{k=n+1}^{n+p} \alpha_k < \varepsilon.$$
 Тогда
 $$\forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0, \forall p \in \mathbb{N}, \forall x \in E \to$$
-
----
 
 $$\to \left| \sum_{k=n+1}^{n+p} u_k(x) \right| \le \sum_{k=n+1}^{n+p} \alpha_k < \varepsilon;$$
 ряд $\sum_{n=1}^{\infty} u_n(x)$ равномерно сходится на $E$ по критерию Коши равномерной сходимости. $\blacksquare$
@@ -213,9 +208,6 @@ $$\to \left| \sum_{k=n+1}^{n+p} u_k(x) \right| \le \sum_{k=n+1}^{n+p} \alpha_k <
 Тогда ряд $\sum_{n=1}^{\infty} a_n(x)b_n(x)$ сходится равномерно на множестве $E$.
 $\square$ Дословно повторяя начало доказательства признака Дирихле сходимости числовых рядов (теорема 15.10), получим
 $$\left| \sum_{k=n+1}^{n+p} a_k(x)b_k(x) \right| \le 2M \cdot b_{n+1}(x) \quad \text{при всех } n, p \in \mathbb{N}, \quad x \in E$$
-
----
-
 (при доказательстве использовалось то, что $|\sum_{k=1}^n a_k| \le M$, $b_k \ge 0$ и $b_k \downarrow$). Так как $b_n(x) \rightrightarrows 0, x \in E$, то
 $$\forall \varepsilon > 0 \to \exists n_0 : \forall n \ge n_0, \forall x \in E \to 0 \le b_{n+1}(x) < \frac{\varepsilon}{2M}.$$
 Значит,
