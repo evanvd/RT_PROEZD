@@ -16,5 +16,6 @@
   "strictLineBreaks": false,
   "showInlineTitle": true,
   "readableLineLength": true,
-  "openBehavior": "file:RT_PROEZD"
+  "openBehavior": "file:RT_PROEZD",
+  "defaultViewMode": "preview"
 }

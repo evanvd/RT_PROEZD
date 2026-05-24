@@ -14,7 +14,8 @@
     "MCL Gallery Cards",
     "MCL Multi Column",
     "MCL Wide Views",
-    "snippet"
+    "snippet",
+    "force-preview"
   ],
   "showViewHeader": true
 }
