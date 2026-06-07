@@ -3,7 +3,7 @@
   "accentColor": "#4c00ff",
   "theme": "obsidian",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 20,
   "showRibbon": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
