@@ -29,6 +29,7 @@
     "Выучено": "checkbox",
     "Ознакомился": "checkbox",
     "Формулировка": "checkbox",
-    "Формулировки": "checkbox"
+    "Формулировки": "checkbox",
+    "TQ_show_toolbar": "checkbox"
   }
 }

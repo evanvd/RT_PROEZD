@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:Ангем  ",
+      "query": "path:Линал  ",
       "color": {
         "a": 1,
         "rgb": 16762880
@@ -39,6 +39,6 @@
   "repelStrength": 10.152133580705,
   "linkStrength": 1,
   "linkDistance": 248,
-  "scale": 0.7398424915939541,
-  "close": true
+  "scale": 0.4932283277293024,
+  "close": false
 }

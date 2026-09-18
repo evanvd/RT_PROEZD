@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Things",
   "accentColor": "#4c00ff",
   "theme": "obsidian",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 24,
   "showRibbon": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
